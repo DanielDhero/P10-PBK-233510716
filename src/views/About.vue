@@ -1,5 +1,5 @@
 <template>
     <h1>
-        Ini merupakan halaman About
+        Ini merupakan halaman Book Now
     </h1>
 </template>

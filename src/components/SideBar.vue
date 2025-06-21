@@ -15,7 +15,7 @@ import { ref } from 'vue'
 const items = ref ([
     {title: 'Home', path: '/'},
     {title: 'Akun', path: '/akun'},
-    {title: 'Tentang', path: '/about'},
+    {title: 'Book Now', path: '/about'},
     {title: 'Informasi', path: '/info'}
   ])
 </script>
