@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Air Jordan 4 Retro White Cement",
+      "brand": "Nike Air Jordan",
+      "price": 3499000,
+      "description": "Sepatu basket ikonik yang dirilis pada tahun 1989, menampilkan desain timeless dengan unit Air-sole yang terlihat dan panel jaring yang khas.",
+      "thumbnail": "/images/aj4.PNG",
+      "images": [
+        "/images/aj4.PNG",
+        "/images/aj4-1.PNG",
+        "/images/aj4-2.PNG",
+        "/images/aj4-3.PNG"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Air Jordan 3 Retro J Balvin Rio",
+      "brand": "Nike Air Jordan",
+      "price": 2500000,
+      "description": "The Jordan 3 Retro J Balvin Rio perfectly blends the classic Jordan 3 design with J Balvin's signature flair. Featuring a predominantly black upper, this sneaker is brought to life with solar flare and total crimson abyss accents that capture the vibrant energy of J Balvin’s music.",
+      "thumbnail": "/images/j3.PNG",
+      "images": [
+        "/images/j3.PNG",
+        "/images/j3-1.PNG",
+        "/images/j3-2.PNG",
+        "/images/j3-3.PNG"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Air Jordan 1 Retro High Fragment",
+      "brand": "Nike Air Jordan",
+      "price": 42000000,
+      "description": "The Jordan 1 Retro Fragment is a retro-inspired collaborative sneaker by the Jordan Brand and Fragment design.",
+      "thumbnail": "/images/aj1fr.PNG",
+      "images": [
+        "/images/aj1fr.PNG",
+        "/images/aj1fr-1.PNG",
+        "/images/aj1fr-2.PNG",
+        "/images/aj1fr-3.PNG"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Nike SB Dunk Low Nasty Boys",
+      "brand": "Nike",
+      "price": 16000000,
+      "description": "The Nike SB Dunk Low Nasty Boys is a low-top shoe that pays homage to the Nasty Boys, the trio of pitchers for the Cincinnati Reds baseball team in the 1990 World Series.",
+      "thumbnail": "/images/sbd.PNG",
+      "images": [
+        "/images/sbd.PNG",
+        "/images/sbd-1.PNG",
+        "/images/sbd-2.PNG",
+        "/images/sbd-3.PNG"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "adidas Samba OG Cloud White Core Black",
+      "brand": "Adidas",
+      "price": 1900000,
+      "description": "The adidas Samba OG Cloud White Core Black (Women's) represents a contemporary take on a timeless style, emanating an aesthetic charm that goes beyond its original athletic purpose.",
+      "thumbnail": "/images/ad.PNG",
+      "images": [
+        "/images/ad.PNG",
+        "/images/ad-1.PNG",
+        "/images/ad-2.PNG",
+        "/images/ad-3.PNG"
+      ]
+    }
+  ]
+}

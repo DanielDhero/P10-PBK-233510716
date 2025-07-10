@@ -1,55 +1,38 @@
 <template>
   <v-app>
-    <v-layout class="d-flex flex-column min-h-screen">
-      <!-- Navbar -->
-      <v-app-bar color="primary">
-        <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer" />
-        <v-toolbar-title>Travelala</v-toolbar-title>
-        <v-btn icon="mdi-dots-vertical" variant="text"></v-btn>
-      </v-app-bar>
+    <v-app-bar color="primary">
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-toolbar-title>DKicks</v-toolbar-title>
 
-      <!-- Sidebar -->
-      <SideBar v-model="drawer" />
+      <v-spacer></v-spacer>
 
-      <!-- Main Content -->
-      <v-main class="flex-grow-1">
-        <v-container fluid>
-          <RouterView />
-        </v-container>
-      </v-main>
+      <v-btn to="/keranjang" icon>
+        <v-badge :content="cartStore.totalItems" color="error" v-if="cartStore.totalItems > 0">
+          <v-icon>mdi-cart</v-icon>
+        </v-badge>
+        <v-icon v-else>mdi-cart-outline</v-icon>
+      </v-btn>
 
-      <!-- Footer -->
-      <v-footer
-        class="d-flex align-center justify-center flex-wrap py-3"
-        color="surface-light"
-      >
-        <v-btn
-          v-for="link in links"
-          :key="link"
-          :text="link"
-          variant="text"
-          rounded
-        />
-        <div class="flex-1-0-100 text-center mt-2">
-          {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-        </div>
-      </v-footer>
-    </v-layout>
+    </v-app-bar>
+
+    <v-navigation-drawer v-model="drawer">
+      <SideBar />
+    </v-navigation-drawer>
+
+    <v-main>
+      <router-view></router-view>
+    </v-main>
   </v-app>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import SideBar from './components/SideBar.vue'
+import { ref } from 'vue';
+import SideBar from '@/components/SideBar.vue';
+import { useCartStore } from '@/stores/cartStore.js'; // <-- Impor store keranjang
 
-const drawer = ref(false)
+// State untuk sidebar
+const drawer = ref(false);
 
-const links = [
-  'Home',
-  'About Us',
-  'Team',
-  'Services',
-  'Blog',
-  'Contact Us',
-]
+// Akses ke store keranjang
+const cartStore = useCartStore(); // <-- Gunakan store
 </script>
