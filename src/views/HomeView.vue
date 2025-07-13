@@ -30,14 +30,11 @@ const loading = ref(true);
 
 onMounted(async () => {
   try {
-    // Mengambil data dari json-server
     const response = await apiClient.get('/products');
-    // Kita hanya akan menampilkan 3 produk sebagai unggulan
-    featuredProducts.value = response.data.slice(0, 3);
+    featuredProducts.value = response.data.slice(0, 7);
   } catch (error) {
     console.error('Gagal mengambil data produk unggulan:', error);
   } finally {
-    // Hentikan loading setelah proses selesai
     loading.value = false;
   }
 });

@@ -46,7 +46,7 @@
       "id": "4",
       "name": "Nike SB Dunk Low Nasty Boys",
       "brand": "Nike",
-      "price": 16000000,
+      "price": 15798000,
       "description": "The Nike SB Dunk Low Nasty Boys is a low-top shoe that pays homage to the Nasty Boys, the trio of pitchers for the Cincinnati Reds baseball team in the 1990 World Series.",
       "thumbnail": "/images/sbd.PNG",
       "images": [
@@ -68,6 +68,118 @@
         "/images/ad-1.PNG",
         "/images/ad-2.PNG",
         "/images/ad-3.PNG"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Nike Zoom Vomero 5 Supersonic Light Bone Black",
+      "brand": "Nike",
+      "price": 3500000,
+      "description": "The Nike Vomero 5 Supersonic Light Bone Black takes on a running shoe silhouette with a low-top design, emphasizing comfort and performance.",
+      "thumbnail": "/images/vmr.PNG",
+      "images": [
+        "/images/vmr.PNG",
+        "/images/vmr-1.PNG",
+        "/images/vmr-2.PNG",
+        "/images/vmr-3.PNG"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Nike Air Max 95 OG Levis Obsidian",
+      "brand": "Nike",
+      "price": 5500000,
+      "description": "Nike and Levi's® team up to reimagine the all-time classic Air Max 95. This edition receives a denim overhaul with frayed raw edges, adding depth and texture throughout the two-tone woven upper.",
+      "thumbnail": "/images/am95.PNG",
+      "images": [
+        "/images/am95.PNG",
+        "/images/am95-1.PNG",
+        "/images/am95-2.PNG",
+        "/images/am95-3.PNG"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Nike Air Max 95 OG Big Bubble Neon (2025)",
+      "brand": "Nike",
+      "price": 6200000,
+      "description": "The Nike Air Max 95 OG Big Bubble Neon (2025) marks the return of one of the most iconic silhouettes in the Nike Air Max lineage. Featuring its distinctive gradient panels and anatomy-inspired build, the 2025 edition stays true to the model’s roots while subtly introducing a notable update—a larger-than-usual Air unit called the Big Bubble.",
+      "thumbnail": "/images/a95n.PNG",
+      "images": [
+        "/images/a95n.PNG",
+        "/images/a95n-1.PNG",
+        "/images/a95n-2.PNG",
+        "/images/a95n-3.PNG"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "ASICS Gel-1130 Black Pure Silver",
+      "brand": "ASICS",
+      "price": 1800000,
+      "description": "Spanning across decades of design evolution, the GEL-1130™ sneaker pays homage to the ninth iteration of the GEL-1000™ series. The stability running shoe from 2008 keeps you feeling supported wherever your mind takes you.",
+      "thumbnail": "/images/as.PNG",
+      "images": [
+        "/images/as.PNG",
+        "/images/as-1.PNG",
+        "/images/as-2.PNG",
+        "/images/as-3.PNG"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "ASICS Gel-Kayano 14 White Graphite Grey",
+      "brand": "ASICS",
+      "price": 2099000,
+      "description": "The GEL-KAYANO™ 14 sneaker resurfaces with its late 2000s aesthetic as a nod to our storied GEL-KAYANO™ series.",
+      "thumbnail": "/images/asg.PNG",
+      "images": [
+        "/images/asg.PNG",
+        "/images/asg-1.PNG",
+        "/images/asg-2.PNG",
+        "/images/asg-3.PNG"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "ASICS Gel-1130 White Pure Silver Pink",
+      "brand": "ASICS",
+      "price": 1649000,
+      "description": "Spanning across decades of design evolution, the GEL-1130™ sneaker pays homage to the ninth iteration of the GEL-1000™ series. The stability running shoe from 2008 keeps you feeling supported wherever your mind takes you.",
+      "thumbnail": "/images/1130pink.PNG",
+      "images": [
+        "/images/1130pink.PNG",
+        "/images/1130pink-1.PNG",
+        "/images/1130pink-2.PNG",
+        "/images/1130pink-3.PNG"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Air Jordan 2 Retro Low SP Off-White White Red",
+      "brand": "Nike Air Jordan",
+      "price": 11980000,
+      "description": "The Air Jordan 2 Off-White White Red nods to the natural aging process of original Air Jordans. It features a white leather upper with red piping, yellowed eyelets, and Michael Jordan's signature on the lateral side. At the heel, a red heel cap is prominent with Nike branding. Looks of aging are apparent on the design's sole, where the midsole is artificially yellowed and decayed with translucent material filling the gaps. Off-White's signature address print on the interior and a Jordan Wings logo on the tongue completes the design.",
+      "thumbnail": "/images/aj2off.PNG",
+      "images": [
+        "/images/aj2off.PNG",
+        "/images/aj2off-1.PNG",
+        "/images/aj2off-2.PNG",
+        "/images/aj2off-3.PNG"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Air Jordan 2 Retro Low Cherrywood",
+      "brand": "Nike Air Jordan",
+      "price": 899000,
+      "description": "The Jordan 2 Retro Low Cherrywood was released as part of Jordan’s Retro collection, which debuted in 2004. It is a special iteration of the Jordan 2 line, featuring a low top silhouette.",
+      "thumbnail": "/images/aj2c.PNG",
+      "images": [
+        "/images/aj2c.PNG",
+        "/images/aj2c-1.PNG",
+        "/images/aj2c-2.PNG",
+        "/images/aj2c-3.PNG"
       ]
     }
   ]

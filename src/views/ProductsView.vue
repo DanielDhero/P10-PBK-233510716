@@ -29,11 +29,9 @@
   const allProducts = ref([]);
   const loading = ref(true);
   
-  // Fungsi untuk mengambil SEMUA produk dari API
   async function fetchAllProducts() {
     try {
       const response = await apiClient.get('/products');
-      // Ambil semua data produk tanpa .slice()
       allProducts.value = response.data;
     } catch (error) {
       console.error('Gagal mengambil semua produk:', error);

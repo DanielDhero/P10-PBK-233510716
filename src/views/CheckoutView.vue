@@ -76,14 +76,12 @@
     address: ''
   });
   
-  // Fungsi yang dijalankan saat form disubmit
   function submitOrder() {
     if (!formData.value.name || !formData.value.email || !formData.value.address) {
       alert('Harap isi semua data pengiriman.');
       return;
     }
     
-    // Simulasi pengiriman data
     console.log("Order Dibuat:", {
       customer: formData.value,
       items: cartStore.items,
@@ -92,7 +90,6 @@
   
     alert('Pesanan Anda telah berhasil dibuat!');
     
-    // Kosongkan keranjang dan kembali ke halaman utama
     cartStore.clearCart();
     router.push('/');
   }

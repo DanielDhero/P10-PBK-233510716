@@ -44,7 +44,6 @@
 </template>
 
 <script setup>
-// Bagian <script setup> tidak perlu diubah sama sekali
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { useCartStore } from '@/stores/cartStore.js';

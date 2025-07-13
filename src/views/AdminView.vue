@@ -122,9 +122,7 @@
     dialog.value = false;
   }
   
-  // ==== LOGIKA SIMPAN DIPERBARUI ====
   async function saveProduct() {
-    // Gabungkan thumbnail dan gambar lainnya ke dalam array 'images'
     const additionalImages = otherImages.value ? otherImages.value.split(',').map(s => s.trim()) : [];
     editedItem.value.images = [editedItem.value.thumbnail, ...additionalImages];
   
